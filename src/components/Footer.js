@@ -1,3 +1,5 @@
+import { PEERLIST } from '../config';
+
 const Footer = () => {
   return (
     <footer className="flex justify-center">
@@ -5,7 +7,7 @@ const Footer = () => {
       <a
         className="ml-1 font-bold text-blue-900 hover:underline"
         target="_blank"
-        href="https://peerlist.io/vinit"
+        href={PEERLIST}
       >
         Vinit Raut
       </a>
