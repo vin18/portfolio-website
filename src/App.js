@@ -1,16 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages';
-import { Header } from './components';
+import { Header, Footer } from './components';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <main className="container mx-auto py-4">
+      <main style={{ minHeight: '85vh' }} className="container mx-auto py-4 ">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 };

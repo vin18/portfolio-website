@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-blue-50 text-gray-900 p-5">
-      <nav className="flex justify-between items-center container mx-auto text-xl">
-        <h3 className="font-bold text-2xl">Vinit Raut</h3>
+    <header className="bg-blue-50 text-gray-900 p-4 border border-b-400">
+      <nav className="flex justify-between items-center container mx-auto text-lg">
+        <Link to="/">
+          <h3 className="font-bold text-2xl text-blue-800">Vinit Raut</h3>
+        </Link>
 
         <ul className="flex items-center space-x-8">
           <li>
