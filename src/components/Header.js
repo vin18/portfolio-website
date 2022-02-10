@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ABOUT, BLOGS, HOME, PROJECTS } from '../config';
+import { ABOUT, BLOGS, HASHNODE_BLOG, HOME, PROJECTS } from '../config';
 
 const Header = () => {
   return (
@@ -23,9 +23,9 @@ const Header = () => {
           </li>
 
           <li>
-            <Link className="hover:text-blue-800" to={BLOGS}>
+            <a className="hover:text-blue-800" href={BLOGS} target="_blank">
               Blog
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
