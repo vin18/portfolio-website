@@ -19,7 +19,7 @@ import {
 const Home = () => {
   return (
     <div className="flex flex-col md:flex-row items-center mx-auto max-w-4xl mt-8 md:mt-20 bg-blue-50 text-gray-700 p-8">
-      <div className="mr-12 border rounded-full border-blue-200">
+      <div className="md:mr-12 border rounded-full border-blue-200">
         <img className="w-72" src={profilePic} alt="Profile pic" />
       </div>
       <div className="mt-8 md:mt-0">
@@ -63,11 +63,13 @@ const Home = () => {
           Javascript, CSS, React, TailwindCSS, Redux, Nodejs, ExpressJs, MongoDB
         </p>
 
-        <button className="mt-3 py-1 px-4 text-blue-50 rounded shadow-,d transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800">
-          Resume
-        </button>
+        <div className="flex md:block justify-center">
+          <button className="mt-3  py-1 px-4 text-blue-50 rounded shadow-,d transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800">
+            Resume
+          </button>
+        </div>
 
-        <div className="flex items-center space-x-4 mt-4">
+        <div className="flex justify-center md:justify-start items-center space-x-4 mt-4">
           <a href={GITHUB} target="_blank" title="github">
             <img className="w-5" src={githubIcon} alt="github" />
           </a>
