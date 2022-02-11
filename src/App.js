@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from './pages';
 import { Header, Footer } from './components';
+import { Home, About } from './pages';
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <main style={{ minHeight: '85vh' }} className="container mx-auto py-4 ">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer />

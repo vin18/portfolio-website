@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { ABOUT, BLOGS, HASHNODE_BLOG, HOME, PROJECTS } from '../config';
+import profilePic from '../assets/images/profile-pic-7.png';
 
 const Header = () => {
   return (
     <header className="bg-blue-50 text-gray-900 p-4 border border-b-400">
       <nav className="flex justify-between items-center container mx-auto text-lg">
-        <Link to={HOME}>
-          <h3 className="font-bold text-2xl text-blue-800">Vinit Raut</h3>
+        <Link className="flex items-center" to={HOME}>
+          <img className="w-8" src={profilePic} alt="Profile pic" />{' '}
+          <h3 className="ml-2 font-bold text-2xl text-blue-800">Vinit Raut</h3>
         </Link>
 
         <ul className="flex items-center space-x-8">

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import profilePic from '../assets/images/profile-pic-6.png';
+import profilePic from '../assets/images/profile-pic-7.png';
 import {
   BLOGS,
   GITHUB,
@@ -39,8 +39,8 @@ const Home = () => {
         </p>
 
         <p className="mb-3">
-          I like working on frontend and backend and love building end to end
-          web applications. Checkout my{' '}
+          I love working on frontend and backend to build end to end web
+          applications. Checkout my{' '}
           <Link
             className="font-bold text-blue-700 hover:underline"
             to={PROJECTS}
