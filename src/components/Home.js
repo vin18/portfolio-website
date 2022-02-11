@@ -70,19 +70,44 @@ const Home = () => {
         </div>
 
         <div className="flex justify-center md:justify-start items-center space-x-4 mt-4">
-          <a href={GITHUB} target="_blank" title="github">
+          <a
+            className="transition ease-in-out delay hover:scale-110 hover:shadow-md"
+            href={GITHUB}
+            target="_blank"
+            title="github"
+          >
             <img className="w-5" src={githubIcon} alt="github" />
           </a>
-          <a href={LINKEDIN} target="_blank" title="linkedin">
+          <a
+            className="transition ease-in-out delay hover:scale-110 hover:shadow-md"
+            href={LINKEDIN}
+            target="_blank"
+            title="linkedin"
+          >
             <img className="w-5" src={linkedinIcon} alt="linkedin" />
           </a>
-          <a href={PEERLIST} target="_blank" title="peerlist">
+          <a
+            className="transition ease-in-out delay hover:scale-110 hover:shadow-md"
+            href={PEERLIST}
+            target="_blank"
+            title="peerlist"
+          >
             <img className="w-5" src={peerlistIcon} alt="peerlist" />
           </a>
-          <a href={TWITTER} target="_blank" title="twitter">
+          <a
+            className="transition ease-in-out delay hover:scale-110 hover:shadow-md"
+            href={TWITTER}
+            target="_blank"
+            title="twitter"
+          >
             <img className="w-5" src={twitterIcon} alt="twitter" />
           </a>
-          <a href={BLOGS} target="_blank" title="hashnode">
+          <a
+            className="transition ease-in-out delay hover:scale-110 hover:shadow-md"
+            href={BLOGS}
+            target="_blank"
+            title="hashnode"
+          >
             <img className="w-5" src={hashnodeIcon} alt="hashnode" />
           </a>
         </div>

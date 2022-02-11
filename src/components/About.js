@@ -12,15 +12,16 @@ const About = () => {
           Hello, I am <span className="text-blue-700 font-bold">Vinit</span>. I
           am a software developer that loves building beautiful, performant end
           to end web applications. I am very passionate about web development
-          ecosystem. I cement by learnings by reading and writing{' '}
+          ecosystem. I mostly learn from Youtube & online tutorials. I cement by
+          learnings by reading and writing{' '}
           <a
             target="_blank"
             className="text-blue-700 font-bold hover:underline"
             href={BLOGS}
           >
             blogs
-          </a>
-          , learning from Youtube tutorials and by building{' '}
+          </a>{' '}
+          and by building{' '}
           <a
             target="_blank"
             className="text-blue-700 font-bold hover:underline"
@@ -48,14 +49,14 @@ const About = () => {
           it.
         </p>
 
-        <p>
+        <p className="bg-blue-100 text-gray-800 text-sm py-4 px-3 border-l-4 border-blue-500 shadow">
           Fun fact: I try to live a low key, private and a simpler life.
           Skipping parties or any random events due to which most of the people
           have stopped inviting me and as an introvert I am not complaining!
-          (Intended as a joke but true story xD)
+          (Intended as a joke but true story 😆)
         </p>
 
-        <p>Alright, goodbye and have a nice day! 🤗</p>
+        <p>Thank you for reading, goodbye and have a nice day! 🤗</p>
       </div>
     </div>
   );
