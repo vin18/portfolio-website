@@ -9,19 +9,11 @@ const About = () => {
 
       <div className="text-gray-800 max-w-4xl mx-auto text-xl space-y-6 p-5">
         <p>
-          Hello, I am <span className="text-blue-700 font-bold">Vinit</span>. I
-          am a software developer that loves building beautiful, performant end
-          to end web applications. I am very passionate about web development
-          ecosystem. I mostly learn from Youtube & online tutorials. I cement by
-          learnings by reading and writing{' '}
-          <a
-            target="_blank"
-            className="text-blue-700 font-bold hover:underline"
-            href={BLOGS}
-          >
-            blogs
-          </a>{' '}
-          and by building{' '}
+          👋 Hello! I am <span className="text-blue-700 font-bold">Vinit</span>.
+          I am a software developer that loves building beautiful, performant
+          end to end web applications. I am very passionate about web
+          development ecosystem. I mostly learn from Youtube & online tutorials.
+          I cement by learnings by building{' '}
           <a
             target="_blank"
             className="text-blue-700 font-bold hover:underline"
@@ -29,13 +21,23 @@ const About = () => {
           >
             projects
           </a>
+          , reading and writing{' '}
+          <a
+            target="_blank"
+            className="text-blue-700 font-bold hover:underline"
+            href={BLOGS}
+          >
+            blogs
+          </a>
           . Whenever I am not coding, I am probably reading, watching good
-          movies/tv show or preparing some good jokes so I can make my loved
+          movies/tv shows or preparing some good jokes so I can make my loved
           ones (mostly my sisters) laugh. I enjoy playing chess which I fell in
           love with since the age of 8, won few medals, lost a ton of
           tournaments, the love is only growing for chess. I am a huge Marvel
-          fan and my favorite trilogy is The Dark Knight. If you want to connect
-          feel free to reach out on{' '}
+          fan and my favorite trilogy is The Dark Knight. I love having
+          conversations with like minded folks, learn from them and highly
+          believe in growing together, if you want to connect feel free to reach
+          out on{' '}
           <a
             target="_blank"
             className="text-blue-700 font-bold hover:underline"
@@ -43,10 +45,8 @@ const About = () => {
           >
             twitter
           </a>
-          . I love having conversations with like minded folks, learn from them
-          and highly believe in growing together. I have been blessed with a
-          privileged life and I am grateful and trying to make the best out of
-          it.
+          . I have been blessed with a privileged life and I am grateful and
+          trying to make the best out of it.
         </p>
 
         <p className="bg-blue-100 text-gray-800 text-sm py-4 px-3 border-l-4 border-blue-500 shadow">

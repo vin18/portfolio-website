@@ -1,6 +1,8 @@
 import Header from './Header';
-import Home from './Home';
 import Footer from './Footer';
+import Home from './Home';
 import About from './About';
+import Projects from './Projects';
+import Project from './Project';
 
-export { Header, Home, About, Footer };
+export { Header, Home, About, Footer, Projects, Project };
