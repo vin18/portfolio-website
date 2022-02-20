@@ -12,7 +12,7 @@ const Projects = () => {
           Projects 💼
         </h2>
         <p className="text-gray-800">
-          Resumes are old faishoned. I believe in{' '}
+          Resumes and degrees are old faishoned. I believe in{' '}
           <span className="font-semibold">proof of work and skills</span>. I
           like to apply my learnings by building projects. Checkout my projects
           and feel free to reach out for any{' '}
@@ -23,9 +23,9 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-12">
+      <div className="mx-auto max-w-xs">
         {projects.map((project) => (
-          <Project project={project} />
+          <Project key={project.id} project={project} />
         ))}
       </div>
       <div className="flex justify-center mt-8">
