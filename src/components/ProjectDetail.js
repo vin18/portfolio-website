@@ -12,19 +12,19 @@ const ProjectDetail = () => {
 
         <div>
           <a href={project.demo} target="_blank">
-            <button className="mt-3  py-1 px-4 text-blue-50 rounded shadow-,d transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800 mr-2">
+            <button className="py-1 px-4 text-blue-50 rounded shadow-md transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800 mr-2">
               Demo
             </button>
           </a>
 
           <a href={project.github} target="_blank">
-            <button className="mt-3  py-1 px-4 text-blue-50 rounded shadow-,d transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800">
+            <button className="py-1 px-4 text-blue-50 rounded shadow-md transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800">
               Code
             </button>
           </a>
         </div>
       </div>
-      <p className="text-center mt-2 sm:text-left">{project.description}</p>
+      <p className="text-center sm:text-left">{project.description}</p>
 
       <div className="mt-5 flex justify-center">
         <img

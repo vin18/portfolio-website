@@ -18,7 +18,7 @@ const projects = [
       'Products listing',
       'Shopping cart',
       'Product reviews and ratings',
-      'Register, Login, Logout, Forgot password, Reset password',
+      'Register, login, logout, forgot password, reset password',
       'Product pagination',
       'Product search',
       'Checkout process (shipping, payment method, etc)',
@@ -28,6 +28,7 @@ const projects = [
       'Admin order management',
       'Razorpay integration for payments',
       'Wishlist',
+      'Discount functionality'
     ],
     purpose: '',
     challenges: '',

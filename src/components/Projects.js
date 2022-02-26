@@ -32,7 +32,7 @@ const Projects = () => {
         <a
           href={GITHUB}
           target="_blank"
-          className="mt-3  py-1 px-4 text-blue-50 rounded shadow-,d transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800"
+          className="mt-3  py-1 px-4 text-blue-50 rounded shadow-md transition ease-in-out delay-100 bg-blue-800 hover:shadow-2xl hover:scale-105 hover:bg-blue-600 duration-300 active:scale-100 active:bg-blue-800"
         >
           Github
         </a>
