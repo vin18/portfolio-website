@@ -8,6 +8,7 @@ const Footer = () => {
         className="ml-1 font-bold text-blue-900 hover:underline"
         target="_blank"
         href={PEERLIST}
+        rel="noreferrer"
       >
         Vinit Raut
       </a>

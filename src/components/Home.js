@@ -26,7 +26,6 @@ import {
   mongoDbIcon,
   nodejsIcon,
   expressIcon,
-  gitIcon,
 } from '../assets/icons';
 
 const Home = () => {
