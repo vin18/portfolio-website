@@ -102,7 +102,7 @@ const Home = () => {
             target="_blank"
             title="hashnode"
           >
-            <img className="w-5" src={hashnodeIcon} alt="hashnode" />
+            <img className="w-5" src={hashnodeIcon} alt="hashnode" loading="lazy" />
           </a>
         </div>
       </div>

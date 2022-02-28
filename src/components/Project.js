@@ -8,8 +8,9 @@ const Project = ({ project }) => {
       <div className=" bg-gray-50 border-b-4 border-blue-500 text-gray-800 shadow-md rounded transition-all ease-in-out hover:-translate-y-1 cursor-pointer hover:shadow-xl">
         <img
           src={project.bannerImg}
-          alt="shopeasy banner"
+          alt={project.name}
           className="rounded p-2 w-full"
+          loading="lazy"
         />
         <div className="px-4 py-3">
           <h4 className="text-xl font-semibold text-blue-500">
