@@ -1,8 +1,6 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => {
-  const navigate = useNavigate();
-
   return (
     <Link to={project.slug} key={project.id}>
       <div className=" bg-gray-50 border-b-4 border-blue-500 text-gray-800 shadow-md rounded transition-all ease-in-out hover:-translate-y-1 cursor-pointer hover:shadow-xl">

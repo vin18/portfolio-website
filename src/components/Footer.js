@@ -2,7 +2,7 @@ import { PEERLIST } from '../config';
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center">
+    <footer className="flex justify-center mb-4">
       Made with ❤️ by
       <a
         className="ml-1 font-bold text-blue-900 hover:underline"
